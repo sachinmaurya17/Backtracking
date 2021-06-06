@@ -1,0 +1,91 @@
+/* here we are using class:
+.heading 
+.paragraph__padding-null
+.images
+.list
+.paragraph__alogrith
+.paragraph__brown
+.paragraph__black
+.paragraph__blue
+.blockquote
+.center
+list-bolder
+.paragraph__algorith-type1
+ */
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.heading h1{
+    padding:10px 0px 0px 10px ;
+}
+p{
+    padding: 15px 10px 0px 10px;
+}
+.paragraph__padding-null{
+    padding-top:0px ;
+}
+.images img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list{
+    padding: 10px 10px 0px 50px;
+}
+.paragraph__algorith{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.paragraph__brown{
+    color: rgb(82, 2, 2);
+    font-size: 16px;
+    
+    font-weight: bold;
+}
+.paragraph__blue{
+    color: blue;
+}
+.blockquote{
+    padding-left: 100px;
+}
+.paragraph__brown-strong{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.table__mid__css{
+    margin: 0 auto;
+}
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 5px;
+}
+.paragraph__algorith-type1{
+    font-weight: bolder;
+    font-size: 16px;
+    padding-top: 25px;
+}
+.paragraph__black{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.center{
+    margin:0 auto;
+}
+.images td{
+    width: 40px;
+    
+}
+.list-bolder{
+    font-size: 20px;
+    font-weight: bolder;
+}
