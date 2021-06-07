@@ -415,22 +415,22 @@
         </p>
     </section>
     <section class="table__mid">
-        <table class="table__mid__css">
+        <table class="table__mid__css" border="1">
             <thead>
                 <th></th>
-                <th>2 by 3 map</th>
-                <th>3 by 3 map</th>
-                <th>3 by 4 map</th>
+                <th class="gray">2 by 3 map</th>
+                <th class="gray">3 by 3 map</th>
+                <th class="gray">3 by 4 map</th>
             </thead>
             <tbody>
                 <tr>
-                    <td>Method 1:</td>
+                    <td class="gray">Method 1:</td>
                     <td>60 ms.</td>
                     <td>940 ms.</td>
                     <td>60530 ms.(1 mintue)</td>
                 </tr>
                 <tr>
-                    <td>Method 2:</td>
+                    <td class="gray">Method 2:</td>
                     <td>0 ms.</td>
                     <td>0 ms.</td>
                     <td>0 ms.</td>
@@ -593,15 +593,15 @@
         </p>
     </section>
     <section class="images">
-        <table class="center">
+        <table class="center" border="1">
             <tbody>
-                <tr>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                </tr>
+                <tr> 
+                    <td width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td width="44">&nbsp;</td>
+                    <td width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                    <td width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                  </tr>
             </tbody>
         </table>
     </section>
@@ -611,15 +611,17 @@
         </p>
     </section>
     <section class="images">
-        <table class="center">
+        <table class="center" border="1">
             <tbody>
-                <tr>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                </tr>
+                
+                    <tr> 
+                        <td width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                        <td width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                        <td width="44">&nbsp;</td>
+                        <td width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                        <td width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    </tr>
+                
             </tbody>
         </table>
     </section>
@@ -635,7 +637,7 @@
             For example, you could make the following sequence of moves:
         </p>
     </section>
-    <section class="images">
+    <section class="images-table">
         <!-- <div>
             using table we can make 
             <span class="paragraph__algorith-type1">Starting position:</span>
@@ -665,90 +667,203 @@
             <span class="paragraph__algorith-type1">Stuck!</span>
             
         </div> -->
-        <br>
-        <span class="paragraph__algorith-type1">Starting position:</span>
-        <table class="center">
-            <tbody>
-                <tr>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-        <span class="paragraph__algorith-type1">Black moves ahead:</span>
-        <table class="center">
-            <tbody>
-                <tr>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-        <span class="paragraph__algorith-type1">White jumps:</span>
-        <br>
-        <table class="center">
-            <tbody>
-                <tr>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
+        <!-- <br>
+        <div class="inline">
+            
+            <table>
+                <tbody>
+                    <tr>
+                        <td><span class="paragraph__algorith-type1">Starting position:</span></td>
+                    </tr>
+                
+                <tbody>
+                    <tr>
+                        
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray">&nbsp;</td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         
-        <table class="center">
-            <span class="paragraph__algorith-type1 control">Black moves ahead:</span>
-            <tbody>
-                <tr>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                </tr>
-            </tbody>
-        </table>
         <br>
-        <span class="paragraph__algorith-type1">White moves ahead:</span>
-        <table class="center">
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="inline">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><span class="paragraph__algorith-type1">Black moves ahead:</span></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
         <br>
-        <span class="paragraph__algorith-type1">Black jumps:</span>
-        <table class="center">
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
-                    <td><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="inline">
+            
+            <table>
+                <tbody>
+                    <tr>
+                        <td><span class="paragraph__algorith-type1">White jumps:</span></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <br>
+        <div class="inline">
+            
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="none-border"><span class="paragraph__algorith-type1 control">Black moves ahead:</span></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div class="inline">
+            
+            <table>
+                <tbody>
+                    <tr>
+                        <td><span class="paragraph__algorith-type1">White moves ahead:</span></td>
+                        <td class="gray"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <div class="inline">
+            
+            <table >
+                <tbody>
+                    <tr>
+                        <span class="paragraph__algorith-type1">Black jumps:</span>
+                        <td class="gray"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/black-ball.gif" alt="Backtracking Black Ball"></td>
+                        <td class="gray"><img src="./images/white-ball.gif" alt="Backtracking Black Ball"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <span class="paragraph__algorith-type1">Stucks:</span>
 
-        
+         -->
+         <table align="center" border="0" cellpadding="8" cellspacing="0">
+            <tbody><tr> 
+              <td><b>Starting position:</b></td>
+              <td> 
+                <table align="center" bgcolor="#dddddd" border="1" cellpadding="6" cellspacing="0">
+                  <tbody><tr> 
+                    <td width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td width="44">&nbsp;</td>
+                    <td width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                    <td width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr> 
+              <td><b>Black moves ahead:</b></td>
+              <td> 
+                <table align="center" bgcolor="#dddddd" border="1" cellpadding="6" cellspacing="0">
+                  <tbody><tr> 
+                    <td height="44" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44">&nbsp;</td>
+                    <td height="44" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr> 
+              <td><b>White jumps:</b></td>
+              <td> 
+                <table align="center" bgcolor="#dddddd" border="1" cellpadding="6" cellspacing="0">
+                  <tbody><tr> 
+                    <td height="44" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44">&nbsp;</td>
+                    <td height="44" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr> 
+              <td><b>Black moves ahead:</b></td>
+              <td> 
+                <table align="center" bgcolor="#dddddd" border="1" cellpadding="6" cellspacing="0">
+                  <tbody><tr> 
+                    <td height="44" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44">&nbsp;</td>
+                    <td height="44" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr> 
+              <td><b>Black jumps:</b></td>
+              <td> 
+                <table align="center" bgcolor="#dddddd" border="1" cellpadding="6" cellspacing="0">
+                  <tbody><tr> 
+                    <td height="44" width="44">&nbsp;</td>
+                    <td height="44" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="44" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr> 
+              <td><b>White moves ahead:</b></td>
+              <td> 
+                <table align="center" bgcolor="#dddddd" border="1" cellpadding="6" cellspacing="0">
+                  <tbody><tr> 
+                    <td height="59" width="44">&nbsp;</td>
+                    <td height="59" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                    <td height="59" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="59" width="44"><img src="./images/black-ball.gif" height="44" width="44" /></td>
+                    <td height="59" width="44"><img src="./images/white-ball.gif" height="44" width="44" /></td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr> 
+              <td><b>Stuck!</b></td>
+              <td>&nbsp; </td>
+            </tr>
+          </tbody></table>
     </section>
     <section class="paragraph">
         <p>
