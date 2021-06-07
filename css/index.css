@@ -73,8 +73,13 @@ p{
     font-weight: bolder;
     font-size: 20px;
 }
-.center{
+.center1{
     margin:0 auto;
+    background-color: rgba(204, 200, 200, 0.863);
+}
+.center1, .center1 td{
+    border:1px solid black;
+    border-collapse: collapse;
 }
 .list-bolder{
     font-size: 20px;
@@ -84,5 +89,10 @@ p{
     background-color:rgba(204, 200, 200, 0.863);
 }
 .images-table{
-    margin-left: 30%;
+    margin-left: 32%;
+
 }
+.images-table table{
+    margin-top: 20px;
+}
+
